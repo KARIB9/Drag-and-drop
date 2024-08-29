@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+
+.drag-and-drop {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000; 
+}
+
+.dad-content {
+    position: relative;
+    padding: 20px;
+    background: #ff4040; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 55px rgb(255, 0, 0);
+}
+
+.dad-content .box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #d91c1c; 
+    border-radius: 10px;
+}
+
+.glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000; 
+    border-radius: 10px;
+    filter: drop-shadow(0 0 45px #000000); 
+}
